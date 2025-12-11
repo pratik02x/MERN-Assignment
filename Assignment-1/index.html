@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunbeam registration form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- All Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+     <!-- TABLE (colspan / rowspan) -->
+    <table border="1"  cellpadding="10">
+        <tr>
+            <td colspan="2" align="center"><b>Student Information</b></td>
+        </tr>
+
+        <tr>
+            <td><b>Course:</b></td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><b>Institute:</b></td>
+            <td>Sunbeam Institute of IT</td>
+        </tr>
+
+        <tr>
+            <td>Karad</td>
+        </tr>
+    </table>
+      
+     <div id="img"><img src="sunbeamimg.png" alt=""></div>
+        
+  <div>
+   
+    <h1 >Sunbeam Registeration Form</h1>
+  </div>
+
+  <div class="container">
+    
+
+   <div class="video-box">
+        <iframe width="500" height="280"
+            src="https://www.youtube.com/embed/O2q9aAvV1NI">
+        </iframe>
+    </div>
+
+  <form class="form">
+             
+        <label class="form"><b>Name:</b> 
+            <input type="text" name="Name" required>
+        </label><br><br>
+
+        <label><b>Birth date:</b> 
+            <input type="date" name="Birth date" required>
+        </label><br><br>
+
+        <label><b>Email:</b> 
+            <input type="email" name="Email">
+        </label><br><br>
+
+        <label><b>Password:</b> 
+            <input type="password" name="Password" required>
+        </label><br><br>
+
+        <label><b>Address:</b> 
+            <textarea name="Address"></textarea>
+        </label><br><br>
+
+        <b>Gender:</b>
+        <label><input type="radio" name="Gender" value="Male"> Male</label>
+        <label><input type="radio" name="Gender" value="Female"> Female</label>
+        <label><input type="radio" name="Gender" value="Other"> Other</label>
+        <br><br>
+
+        <b>Upload Photo:</b>
+        <input type="file"><br><br>
+
+        <label><b>Select Your Course:</b>
+            <select name="Select Course">
+                <option value="CSE">CSE</option>
+                <option value="AIML">AIML</option>
+                <option value="AIDS">AIDS</option>
+            </select>
+        </label>
+        <br><br>
+
+        <b>Skill Set:</b>
+        <label><input type="checkbox" name="Java"> Java</label>
+        <label><input type="checkbox" name="CPP"> CPP</label>
+        <label><input type="checkbox" name="OS"> OS</label>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="button" value="cancle">
+
+    </form>
+  </div>
+
+  
+
+ 
+
+  
+  
+
+
+</body>
+</html>

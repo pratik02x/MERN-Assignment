@@ -1,0 +1,43 @@
+.form{
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.video-box{
+    display: flex;
+    align-items: center;
+}
+
+label {
+       
+        width: 120px;
+    }
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    height: 30px;
+}
+
+#img{
+    size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+   
+
+
