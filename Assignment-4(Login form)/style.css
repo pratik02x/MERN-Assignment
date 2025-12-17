@@ -78,6 +78,10 @@ input:hover{
     display: none;
 }
 
+.error-pass{
+    display: none;
+}
+
 .links{
      font-size: medium;
      display: flex;
